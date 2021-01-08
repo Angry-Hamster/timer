@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: #1f1f1f;
   color: wheat;
 }
 
@@ -17,6 +17,7 @@ body {
 
 #heder_title {
   text-align: center;
+  margin-top: 10px;
 }
 
 .div {
@@ -27,4 +28,19 @@ body {
   border: 1px #fff solid;
   border-radius: 10%;
   margin: 0 10px;
+}
+
+@media only screen and (max-width: 460px) {
+  #timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .div {
+    width: 80px;
+    margin-top: 5px;
+  }
 }
